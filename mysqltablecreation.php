@@ -22,3 +22,11 @@ $query = "CREATE TABLE users(
                 
                 mysqli_close($connection);
  ?>
+ .navbar-nav{
+               padding-left: 10px;
+                display: inline-block;
+                list-style: none;
+                font-size: 18px;
+                text-transform: uppercase;
+                padding: 0px 32px;
+             }

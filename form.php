@@ -54,6 +54,31 @@
                     </div>
                 </div>
             </center>
+            <script>
+                $("#user_name").on('keyup',function(){
+             if($("#user_name").val()==''){
+                 $("#name_error").text('name is required');
+             }else{
+                 $("#name_error").text('');
+             }
+         });
+         $("#user_email").on('keyup',function(){
+             if($("#user_email").val()==''){
+                 $("#email_error").text('email is required');
+             }else{
+                 $("#email_error").text('');
+             }
+         });
+
+
+         $("#user_password").on('keyup',function(){
+             if($("#user_password").val()==''){
+                 $("#password_error").text('password is required');
+             }else{
+                 $("#password_error").text('');
+             }
+         });
+</script>
             
 </body>
 </html>

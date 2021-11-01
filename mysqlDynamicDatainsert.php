@@ -21,7 +21,7 @@ $created_at =1;
                 echo "<br>Check Error Trace<br>".mysqli_error($connection); }
                 
                 mysqli_close($connection);
-                header ("location: dashboard.html");
+                header ("location:home.html");
                 exit();
             
  ?>
